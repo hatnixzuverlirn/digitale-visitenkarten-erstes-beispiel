@@ -6,7 +6,7 @@ import pandas as pd
 st.set_page_config(page_title="Meine Data Science Visitenkarte", layout="wide")
 
 # Header / Profil
-st.title("Hallo, ich bin [Dein Name] 👋")
+st.title("Hallo, ich bin Herbert Mus 👋")
 st.subheader("Data Scientist & KI-Entwickler")
 
 # Layout aufteilen (2 Spalten)
@@ -14,11 +14,11 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
     st.image("dein_profilbild.jpg", width=200)
-    st.markdown("[Mein Kaggle-Profil](https://kaggle.com) 🚀")
-    st.markdown("[Mein GitHub-Profil](https://github.com) 💻")
+    st.markdown("[Mein Kaggle-Profil](www.linkedin.com/in/andreas-schulz-1a434a302) 🚀")
+    st.markdown("[Mein GitHub-Profil](https://github.com/hatnixzuverlirn) 💻")
 
 with col2:
-    st.write("Hier steht deine kurze, packende Biografie. Erzähle, welche Probleme du am liebsten mit Daten löst.")
+    st.write("Hier steht deine kurze, packende Biografie, wie man sieht. Erzähle, welche Probleme du am liebsten mit Daten löst.")
     
     # Interaktives Skill-Diagramm
     st.write("### Meine Tech-Skills")
